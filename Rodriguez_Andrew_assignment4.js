@@ -71,3 +71,22 @@ var StringTONumber = function(sTN);
 
 };
 var StringTONumberReturn = StringTONumber(NumberParse)
+
+// 5. Number of Decimal places
+//Format a number to use a specific number of decimal places, as for money: 2.1 → 2.10
+var numberdecimal = function(numb,decimal){
+	var number - numb.tofixed(decimal)
+	    return number;
+};
+
+// Array Questions
+
+// 6. Smallest number value
+//Find the smallest value in an array that is greater than a given number.
+var smallNumber = function() {
+	var array = [1,4,7,9,10,14,15];
+	var x = Math.max(12,14);
+	for (var x =14; x < array.length; x++);
+	return x;
+};
+smallNumber(14)
