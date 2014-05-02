@@ -90,3 +90,10 @@ var smallNumber = function() {
 	return x;
 };
 smallNumber(14)
+
+// Output
+
+Console.log(PhoneNumCheck + "it is true the string follows a pattern");
+Console.log(EmailCheck + "does follow a string");
+Console.log("does the" + CheckURL + "start with Does it start with http: or https:?");
+console.log
