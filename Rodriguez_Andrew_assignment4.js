@@ -25,3 +25,16 @@ var PhoneNumCheck = function(val) {
     } // Conditional End
 
 }; // PhoneNumCheck Complete 
+
+// 2. Checking E-mail Address
+// Does a string follow an aaa@bbb.ccc pattern like an email address?
+var EmailCheck = function(val) {
+	var email = val;
+	var atsymbol = email.indexOf("@");
+	var dotsymbol = last.indexOf(".");
+
+	if (atsymbol == -1 || dotsymbol == -1 || (atsymbol + 2) >= dotsymbol) {
+		return false;
+	} else {
+		return true;
+	} // Conditional End	
