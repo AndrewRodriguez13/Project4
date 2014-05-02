@@ -38,3 +38,23 @@ var EmailCheck = function(val) {
 	} else {
 		return true;
 	} // Conditional End	
+
+}; // Email Check Complete
+
+// 3. URL Check
+// Is the string a URL? (Does it start with http: or https:?)
+var CheckURL = function(Val) {
+	var url = val;
+	var http = url.indexOf("http://");
+	var https = url.indexOf("https://");
+
+	if (http != -1 || https != -1) {
+	    // if(url substring 0, 5) == "http" || url substring 0, 6) == "https"
+
+      return true;
+  } else {
+  	return false;
+
+  } // Conditinal End
+	
+}; // Url Check Complete
