@@ -58,3 +58,16 @@ var CheckURL = function(Val) {
   } // Conditinal End
 	
 }; // Url Check Complete
+
+// Number Questions
+
+// 4. Return Number Value
+//Given a string version of a number such as "42", return the value as an actual Number, such as 42.
+var StringTONumber = function(sTN);
+{
+	var StringTONumber = parseInt(sTN);
+	// turns the string into a number
+	return StringTONumber;
+
+};
+var StringTONumberReturn = StringTONumber(NumberParse)
